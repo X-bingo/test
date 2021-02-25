@@ -1,0 +1,15 @@
+student:
+  studentId: 2
+  studentName: '李四'
+  age: 19
+  birth: '2002/02/02'
+  maps:
+    height: '180'
+    weight: '140'
+  list:
+    - ${student.studentId}
+    - ${student.studentId}
+    - ${student.studentId}
+  school:
+    schoolId: ${student.studentId}
+    schoolName: '夏'

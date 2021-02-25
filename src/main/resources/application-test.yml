@@ -1,0 +1,15 @@
+student:
+  studentId: 3
+  studentName: '王五'
+  age: 20
+  birth: '2003/03/03'
+  maps:
+    height: '190'
+    weight: '160'
+  list:
+    - ${student.studentId}
+    - ${student.studentId}
+    - ${student.studentId}
+  school:
+    schoolId: ${student.studentId}
+    schoolName: '秋'

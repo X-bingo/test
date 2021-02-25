@@ -1,0 +1,15 @@
+student:
+  studentId: 1
+  studentName: '张三'
+  age: 18
+  birth: '2001/01/01'
+  maps:
+    height: '170'
+    weight: '110'
+  list:
+    - ${student.studentId}
+    - ${student.studentId}
+    - ${student.studentId}
+  school:
+    schoolId: ${student.studentId}
+    schoolName: '春'

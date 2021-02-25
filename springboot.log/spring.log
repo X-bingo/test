@@ -1,0 +1,19 @@
+2020-12-04 10:42:31.365  INFO 18132 --- [main] com.dk.DemoApplication                   : Starting DemoApplication on 张振伟 with PID 18132 (D:\idea_workspace\maven\springboot_01_work\target\classes started by BinGo in D:\idea_workspace\maven\springboot_01_work)
+2020-12-04 10:42:31.370 DEBUG 18132 --- [main] com.dk.DemoApplication                   : Running with Spring Boot v2.2.11.RELEASE, Spring v5.2.10.RELEASE
+2020-12-04 10:42:31.371  INFO 18132 --- [main] com.dk.DemoApplication                   : No active profile set, falling back to default profiles: default
+2020-12-04 10:42:32.459  INFO 18132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-04 10:42:32.469  INFO 18132 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-04 10:42:32.474  INFO 18132 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-04 10:42:32.551  INFO 18132 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-04 10:42:32.551  INFO 18132 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1104 ms
+2020-12-04 10:42:32.744  INFO 18132 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-04 10:42:32.919  INFO 18132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-04 10:42:32.922  INFO 18132 --- [main] com.dk.DemoApplication                   : Started DemoApplication in 2.269 seconds (JVM running for 3.431)
+2020-12-04 10:42:37.648  INFO 18132 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-04 10:42:37.648  INFO 18132 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-04 10:42:37.653  INFO 18132 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-04 10:42:37.671  INFO 18132 --- [http-nio-8080-exec-1] com.dk.controller.HelloLog               : info------------
+2020-12-04 10:42:37.671 DEBUG 18132 --- [http-nio-8080-exec-1] com.dk.controller.HelloLog               : debug-----------
+2020-12-04 10:42:37.672  WARN 18132 --- [http-nio-8080-exec-1] com.dk.controller.HelloLog               : warn------------
+2020-12-04 10:42:37.672 ERROR 18132 --- [http-nio-8080-exec-1] com.dk.controller.HelloLog               : error-----------
+2020-12-04 10:43:08.419  INFO 18132 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
